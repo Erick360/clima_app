@@ -3,7 +3,6 @@ import 'package:weather_app/screens/location_screen.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:weather_app/services/weather_model.dart';
 
-
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({super.key});
   @override
@@ -11,7 +10,6 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
-
   @override
   void initState() {
     super.initState();
